@@ -7,8 +7,8 @@
 
 set -e
 
-DEVICE=audio
-VENDOR=sony/extra
+DEVICE=dolby
+VENDOR=sony
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

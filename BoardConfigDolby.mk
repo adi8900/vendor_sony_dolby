@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-AUDIO_PATH := vendor/sony/extra/audio
+AUDIO_PATH := vendor/sony/dolby
 
 # SEPolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(AUDIO_PATH)/sepolicy/vendor
@@ -30,4 +30,4 @@ DEVICE_MANIFEST_FILE += \
 AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := true
 
 # inherit from the proprietary version
--include vendor/sony/extra/audio/BoardConfigVendor.mk
+-include vendor/sony/dolby/BoardConfigVendor.mk

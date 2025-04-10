@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/sony/dolby
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/dolby/proprietary/system_ext/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.dolby.daxservice.xml \
     vendor/sony/dolby/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/sony/dolby/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
     vendor/sony/dolby/proprietary/vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2@1.0-service.rc \
@@ -28,8 +27,5 @@ PRODUCT_PACKAGES += \
     libdlbdsservice \
     liboem_specific \
     vendor.dolby.hardware.dms@2.0-impl \
-    vendor.dolby.hardware.dms@2.0_system \
-    DolbySound \
-    daxService \
     vendor.dolby.hardware.dms@2.0-service \
     vendor.dolby.media.c2@1.0-service

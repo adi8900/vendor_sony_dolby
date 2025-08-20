@@ -328,6 +328,7 @@ android_app_import {
 	name: "daxService",
 	owner: "sony",
 	apk: "proprietary/system_ext/priv-app/daxService/daxService.apk",
+	overrides: ["MusicFX"],
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,

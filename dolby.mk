@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+# DolbyManager
+PRODUCT_PACKAGES += \
+    DolbyManager
+
 # Media (C2)
 PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.0.vendor \
